@@ -25,14 +25,14 @@ $numeros = [1 , 2, 3, 4, 5, 6, 7, 8, 9, 10]; //30
 // 15 10 - 5
 
 // transformar um valor decimal em binario (010101)
-14 - 1110
-14 == [1, 1, 1, 0]
-1 x 2 = 1 x 1
-1 x 3 = 1 x 1 x 1
-1 ou 0
+// 14 - 1110
+// 14 == [1, 1, 1, 0]
+// 1 x 2 = 1 x 1
+// 1 x 3 = 1 x 1 x 1
+// 1 ou 0
 
 // Potenciaçao
 
-Bruno
-decimal -> binario
-palindrome - (ana, otto, subinoonibus)
+// Bruno
+// decimal -> binario
+// palindrome - (ana, otto, subinoonibus)
