@@ -36,3 +36,43 @@ $numeros = [1 , 2, 3, 4, 5, 6, 7, 8, 9, 10]; //30
 // Bruno
 // decimal -> binario
 // palindrome - (ana, otto, subinoonibus)
+
+//primos
+// intervalo de 1 até 10, primos nesse intervalo (2,3,5,7);
+
+$primos = []; // array();
+
+for ($i = 0; $i <= 10; $i++) {
+
+}
+
+for ($i = 3; $i <= 10; $i++) {
+    $contarDivisões = 0;
+
+    for  ($a = $i; $a > 1; $a--) {
+        $resto = $i % $a;
+       
+        if ($resto == 0 && $a < $i) { 
+            break; // paramos de analisar o número em questão
+    }
+
+    if ($resto == 0) {
+        $contarDivisões++;
+    }
+}
+if ($contarDivisões == 1) {
+    $primos [] = $i;
+}
+    // 99999
+    // 100 - 99
+    // 100 / 100 = primo
+    // 3 - 99
+    // 3 - 9
+    //$resto =  9 % 3 
+    if ($resto == 0 && 3 < 9) { // o número que tô olhando não é primo.
+        continue;
+    }
+
+    $primos[] = $i; // 11
+    array_push($primos, $i); // 11
+}
